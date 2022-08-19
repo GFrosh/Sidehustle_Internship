@@ -2,6 +2,23 @@
 	margin: 10px 20px 10px 20px;
 }
 h1 {
+	text-align: center;
 	color: green;
 	border: solid 2px lightgreen;
+	padding: 40px;
+}
+.grid {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto;
+}
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+@media (max-width: 600px) {
+	.grid {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto auto auto auto auto;
+	}
 }
