@@ -4,17 +4,22 @@
 h1 {
 	text-align: center;
 	color: green;
-	border: solid 2px lightgreen;
+	border: solid 2px darkgreen;
 	padding: 40px;
+	background-color: lightgreen;
+}
+a {
+	color: lightpink;
+}
+table {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto;
 }
 .grid {
 	display: grid;
 	grid-template-rows: auto auto;
 	grid-template-columns: auto auto auto;
-}
-.container {
-	max-width: 840px;
-	margin: 0 auto;
 }
 @media (max-width: 600px) {
 	.grid {
