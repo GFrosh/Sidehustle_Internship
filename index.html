@@ -10,56 +10,85 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Side Hustle Training</h1>
-			<h3>HTML/CSS/JS Track</h3>
-			<p>MY name is Gideon. I am a very shy boy.</p>
-			<a href="https://lms.terrahq.co/">View Site</a>
 			<div>
+				<h1>Side Hustle Training</h1>
+				<h3>HTML/CSS/JS Track</h3>
+				<p class="INTRO">MY name is Gideon. I am a very shy boy.</p>
+				<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="button">
+					<button onclick="alert(Please click the link)" type="submit" id="button">
+						<a href="https://lms.terrahq.co/">
+						View Site
+						</a>
+					</button>
+				</div>
+			</div>
+			<div id="table">
 				<table>
-					<tr>
-						<th>Justice League</th>
-						<th>Avengers</th>
-						<th>Hellboy</th>
-					</tr>
-					<tr>
-						<td>Superman</td>
-						<td>Captain Marvel</td>
-						<td>Professor broom</td>
-					</tr>
-					<tr>
-						<td>Batman</td>
-						<td>Antman</td>
-						<td>Liz Sherman</td>
-					</tr>
+					<div class="table">
+						<tr class="jl">
+							<div><th class="DC">Justice League</th></div>
+						</tr>
+						<tr>
+							<div><th class="MARVEL">Avengers</th></div>
+						</tr>
+						<tr>
+							<div><th class="HELLBOY">Hellboy</th></div>
+						</tr>
+						<tr class="su">
+							<div><td class="DC">Superman</td></div>
+						</tr>
+						<tr>
+							<div><td class="MARVEL">Captain Marvel</td></div>
+						</tr>
+						<tr>
+							<div><td class="HELLBOY">Professor broom</td></div>
+						</tr>
+						<tr>
+							<div><td class="DC">Batman</td></div>
+						</tr>
+						<tr>
+							<div><td class="MARVEL">Antman</td></div>
+						</tr>
+						<tr class="ba">
+							<div><td class="HELLBOY">Liz Sherman</td></div>
+						</tr>
+					</div>
 				</table>
 			</div>
 			<div class="grid">
-				<div>Justice League</div>
-				<div>Avengers</div>
-				<div>Hellboy</div>
-				<div>Superman</div>
-				<div>Captain Marvel</div>
-				<div>Professor Gaius</div>
+				<div id="Justice_League">Justice League</div>
+				<div id="Avengers">Avengers</div>
+				<div id="Hellboy">Hellboy</div>
+				<div id="Superman">Superman</div>
+				<div id="Captain_Marvel">Captain Marvel</div>
+				<div id="Professor_Gaius">Professor Gaius</div>
 			</div>
 			<div>
 				<form>
 					First Name:<br>
-					<input type="text" name="firstname"><br>
+					<input type="text" name="firstname" value="Gideon Onyegbula">
+					<br>
 					Email Address:<br>
-					<input type="text" name="email">
+					<input type="text" name="email" value="gigi.onyegbula.2007@gmail.com">
 					<input type="radio">
 					<input type="submit">
 				</form>
 			</div>
-			<div>
+			<div class="media">
 				<audio controls autoplay loop muted>
 					<source src="4eva.mp3" type="audio/mp3">
-				</audio><br>
+				</audio>
+				<br>
 				<video controls>
 					<source src="DamnRapper.mp4" type="video/mp4">
 				</video>
 			</div>
 		</div>
 	</body>
-	
 </html>
